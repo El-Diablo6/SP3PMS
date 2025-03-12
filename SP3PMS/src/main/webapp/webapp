@@ -1,0 +1,29 @@
+CREATE TABLE tbl_Booking(
+    Booking_ID VARCHAR(20) PRIMARY KEY, 
+    User_ID VARCHAR(20) ,
+    Rec_Name VARCHAR(50) NOT NULL,
+    Rec_Address VARCHAR(255) NOT NULL,
+    Rec_Pin VARCHAR(15) NOT NULL,
+    Rec_Mobile VARCHAR(50) NOT NULL,
+    Par_Weight_Gram VARCHAR(50) NOT NULL,
+    Par_Contents_Description VARCHAR(255) NOT NULL,
+    Par_Delivery_Type VARCHAR(50) NOT NULL,
+    Par_Packing_Preference VARCHAR(50) NOT NULL,
+    Par_PickupTime VARCHAR(50) NOT NULL,
+    Par_DropoffTime VARCHAR(50) NOT NULL,
+    Par_ServiceCost VARCHAR(50) NOT NULL,
+    Par_PaymentTime VARCHAR(50) NOT NULL,
+    Par_Status VARCHAR(50) 
+    
+); 
+
+
+CREATE TABLE tbl_UserProfile( 
+    User_ID VARCHAR(50) PRIMARY KEY, 
+    FullName VARCHAR(50) NOT NULL, 
+    Rec_Address VARCHAR(255) NOT NULL,
+    Email VARCHAR(50) UNIQUE NOT NULL,
+    MobileNumber  VARCHAR(15) UNIQUE NOT NULL, 
+    Password VARCHAR(255) NOT NULL, 
+    Role VARCHAR(50)
+    )

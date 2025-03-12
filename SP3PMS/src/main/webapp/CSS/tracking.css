@@ -1,0 +1,95 @@
+/* General Styles */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #e9ebee;
+    color: #2c3e50;
+    line-height: 1.6;
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.tracking-page {
+    background-color: white;
+    padding: 30px;
+    border-radius: 12px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.15);
+    margin-bottom: 20px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.tracking-page h2 {
+    color: #3498db;
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+    font-weight: bold;
+}
+.tracking-page:hover{transform: translateY(-5px); transition: transform 0.3s ease-in-out;}
+.tracking-form {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="number"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+.form-group input[type="text"]:focus, .form-group input[type="number"]:focus{
+    border-color: #3498db;
+    outline: none;
+}
+
+.button {
+    background-color: #3498db;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 6px;
+    text-decoration: none;
+    display: inline-block;
+    transition: background-color 0.3s;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.button:hover {
+    background-color: #2980b9;
+}
+
+.tracking-status {margin-top: 30px; padding: 20px; border: 1px solid #ddd; border-radius: 8px; background-color: #f9f9f9;}
+
+.tracking-status h3 {
+    color: #2c67a7;
+    margin-bottom: 10px;
+}
+
+.error-message {
+    color: red;
+    font-size: 0.9em;
+    display: block;
+    margin-top: 5px;
+}
