@@ -1,0 +1,50 @@
+/* CSS Files/support.css */
+/* General Styles */
+body {
+    font-family: 'Arial', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f4f8;
+    color: #333;
+}
+
+
+/* Main Content */
+main {
+    padding: 20px;
+}
+
+.support-page {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    width: 600px;
+    margin: 0 auto;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.support-page h2 {
+    color: #2c67a7;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.contact-details {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.detail-item {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    
+}
+.detail-label{
+    font-weight: bold;
+}
+.detail-value{
+  margin-left: auto;
+
+}

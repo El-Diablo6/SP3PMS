@@ -1,0 +1,66 @@
+@charset "ISO-8859-1";
+
+body {
+		           font-family: Arial, sans-serif;
+		           background-color: #f4f4f4;
+		           margin: 0;
+		           padding: 0;
+		       }
+
+
+
+		/* Main Container */
+		.container {
+		    background: white;
+		    padding: 30px;
+		
+		    border-radius: 10px;
+		    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+		    width: 400px;
+		    text-align: left;
+			margin-left:550px;
+		    margin-top: 30px; /* To prevent overlap with fixed header */
+		}
+
+		h2 {
+		    text-align: center;
+		    color: #2c67a7;
+		}
+
+		/* Form Elements */
+		label {
+		    font-weight: bold;
+		    display: block;
+		    margin-top: 10px;
+		}
+
+		input {
+		    width: 100%;
+		    padding: 8px;
+		    margin-top: 5px;
+		    border: 1px solid #ccc;
+		    border-radius: 5px;
+		}
+
+		/* Buttons */
+		button {
+		    width: 100%;
+		    background-color: #2c67a7;
+		    color: white;
+		    padding: 10px;
+		    border: none;
+		    border-radius: 5px;
+		    cursor: pointer;
+		    margin-top: 10px;
+		}
+
+		button:hover {
+		    background-color: #1e4a79;
+		}
+
+		/* Error Message */
+		.error {
+		    color: red;
+		    font-weight: bold;
+		    text-align: center;
+		}
